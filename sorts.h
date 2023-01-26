@@ -89,5 +89,11 @@ void CountSort(int* ar, int size){
 	}
 	ar = newMass;
 }
+void SelectionSort(int* ar, int size){
+	for(int i = 0; i < size; i++) {
+        	cout << getMaxEl(ar, size - i) << " ";
+    	}
+    	cout << endl;
+}
 
 #endif /*_sorts_h_*/
